@@ -1,0 +1,88 @@
+.error {
+	color:red;
+}
+
+body{
+font-family: verdana, sans-serif;
+text-align: justify;
+margin-left: 100px;
+margin-right: 40px;
+border-left:1px solid #35424A;
+border-right:1px solid #35424A;
+}
+
+#imagecontainer {
+	width: 1000px;
+	margin: auto; 
+}
+.clear {
+	clear:both;
+}
+.imagecontainer {
+	float:left;
+	width:300px;
+	padding: 10;
+	border:1px solid #35424A;
+}
+
+
+#head{
+  text-align:center;
+  border: 1px solid #35424A;
+}
+
+#head:hover{
+  color:black;
+}
+
+.logo {
+	padding: -39px;
+    margin: -3px;
+    float: right;
+    position: relative;
+    top: -76px;
+    right: 10px;
+}
+
+table, th, td {
+   text-align: justify;
+   padding-left: 5px;
+   border-collapse: collapse;
+}
+
+
+#option{
+    font-family: verdana, sans-serif;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 530px;
+    text-align:center;
+    text-decoration: none;
+    font-size:50;
+    list-style-type: none;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
